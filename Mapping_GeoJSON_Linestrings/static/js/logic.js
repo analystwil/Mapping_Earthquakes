@@ -5,7 +5,7 @@ console.log("working");
 let light = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/light-v10/tiles/{z}/{x}/{y}?access_token={accessToken}', {
     attribution: 'Map data © <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery (c) <a href="https://www.mapbox.com/">Mapbox</a>',
     maxZoom: 18,
-   accessToken: 'pk.eyJ1IjoiYW5hbHlzdHdpbCIsImEiOiJja29rZHdwbzgwMmY2Mm5wbHBxODF0dzM2In0.oDVjoLAdJ4ICp6wovKhjng'
+   accessToken: API_KEY
 });
 
 //streets.addTo(map);
